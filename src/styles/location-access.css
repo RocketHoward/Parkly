@@ -1,0 +1,24 @@
+.location-welcome-backdrop {
+  position: fixed; inset: 0; z-index: 5000; display: grid; place-items: center;
+  padding: 20px; background: #16251c66; backdrop-filter: blur(7px);
+}
+.location-welcome {
+  width: min(100%, 420px); max-height: calc(100dvh - 40px); overflow: auto;
+  padding: 32px; border: 1px solid #e1e8db; border-radius: 25px;
+  background: linear-gradient(145deg, #fff, #f1f6e9); color: #26332b;
+  box-shadow: 0 24px 80px #14231b30; outline: none;
+}
+.location-welcome-icon {
+  display: grid; place-items: center; width: 58px; height: 58px;
+  margin-bottom: 24px; border-radius: 18px; background: #dfead3; color: #536f42;
+}
+.location-welcome-eyebrow { font-size: 10px; letter-spacing: 1.5px; font-weight: 700; color: #728563; }
+.location-welcome h2 { margin: 12px 0; font: 600 29px/1.2 Manrope, sans-serif; letter-spacing: -1px; }
+.location-welcome p { font-size: 14px; line-height: 1.65; color: #62715b; margin: 0 0 14px; }
+.location-welcome .location-welcome-note { font-size: 12px; color: #7c8775; margin-bottom: 24px; }
+.location-welcome button { width: 100%; min-height: 46px; border-radius: 12px; font: 600 14px "DM Sans", sans-serif; cursor: pointer; }
+.location-welcome-share { display: flex; gap: 8px; align-items: center; justify-content: center; background: #405c37; border: 1px solid #405c37; color: #fff; }
+.location-welcome-share:disabled { opacity: .65; cursor: wait; }
+.location-welcome-later { margin-top: 8px; background: transparent; border: 0; color: #5d7151; }
+.location-welcome button:focus-visible { outline: 3px solid #789764; outline-offset: 3px; }
+.location-welcome .location-welcome-error { padding: 10px; background: #fff0e5; border-radius: 8px; color: #80512e; font-size: 12px; }

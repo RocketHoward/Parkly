@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="430" viewBox="0 0 700 430" fill="none">
+  <defs>
+    <linearGradient id="islandSide" x1="340" y1="267" x2="347" y2="399" gradientUnits="userSpaceOnUse"><stop stop-color="#D9DCC7"/><stop offset="1" stop-color="#BAC6AF"/></linearGradient>
+    <linearGradient id="ground" x1="239" y1="120" x2="437" y2="357" gradientUnits="userSpaceOnUse"><stop stop-color="#F1F0DE"/><stop offset="1" stop-color="#E5E7D3"/></linearGradient>
+    <linearGradient id="street" x1="231" y1="165" x2="456" y2="319" gradientUnits="userSpaceOnUse"><stop stop-color="#D5DCCF"/><stop offset="1" stop-color="#C3CFC1"/></linearGradient>
+    <linearGradient id="leaf" x1="507" y1="108" x2="545" y2="209" gradientUnits="userSpaceOnUse"><stop stop-color="#A9BE8C"/><stop offset=".57" stop-color="#8EA979"/><stop offset="1" stop-color="#718F66"/></linearGradient>
+    <linearGradient id="leafDark" x1="426" y1="60" x2="461" y2="165" gradientUnits="userSpaceOnUse"><stop stop-color="#9AB284"/><stop offset="1" stop-color="#67835C"/></linearGradient>
+    <linearGradient id="carTop" x1="330" y1="178" x2="393" y2="248" gradientUnits="userSpaceOnUse"><stop stop-color="#A8C1A1"/><stop offset="1" stop-color="#8BA983"/></linearGradient>
+    <linearGradient id="carSide" x1="298" y1="214" x2="380" y2="283" gradientUnits="userSpaceOnUse"><stop stop-color="#74956D"/><stop offset="1" stop-color="#56784F"/></linearGradient>
+    <linearGradient id="glass" x1="332" y1="167" x2="375" y2="219" gradientUnits="userSpaceOnUse"><stop stop-color="#789189"/><stop offset="1" stop-color="#526D62"/></linearGradient>
+    <linearGradient id="wall" x1="295" y1="113" x2="296" y2="192" gradientUnits="userSpaceOnUse"><stop stop-color="#F9F7E9"/><stop offset="1" stop-color="#E6E4D3"/></linearGradient>
+    <filter id="shadow" x="-.2" y="-.4" width="1.4" height="1.8"><feGaussianBlur stdDeviation="11"/></filter>
+    <filter id="soft" x="-.4" y="-.4" width="1.8" height="1.8"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <!-- An airy garden island, suspended just above the paper. -->
+  <ellipse cx="352" cy="344" rx="225" ry="49" fill="#60765C" fill-opacity=".12" filter="url(#shadow)"/>
+  <path d="M86 221C80 216 81 208 90 203L324 68C334 62 347 62 357 68L615 217C625 223 626 233 616 239L382 375C371 381 358 381 348 375L91 227C88 225 87 223 86 221Z" fill="url(#ground)"/>
+  <path d="M86 217C87 221 91 224 97 228L349 373C360 380 371 380 382 374L613 241C619 237 623 233 623 228V246C623 252 619 256 613 260L382 393C371 399 359 399 348 393L97 248C90 244 86 240 86 234V217Z" fill="url(#islandSide)"/>
+  <path d="M88 218C90 222 93 224 99 228L349 373C360 379 371 379 382 373L613 240" stroke="#F9F8EB" stroke-opacity=".7" stroke-width="2"/>
+
+  <!-- Soft planted areas and the single calm ribbon of road. -->
+  <path d="M358 84L580 211C591 218 592 226 582 232L538 258C529 263 520 261 513 254L445 203C431 193 415 190 401 184L321 141C310 134 312 121 323 115L358 95" fill="#DCE4C9"/>
+  <path d="M140 230C147 217 175 206 193 216L328 296C352 309 347 333 327 343L138 235" fill="#DCE2C8"/>
+  <path d="M169 157L238 117L535 288L466 328L169 157Z" fill="#F7F6E9"/>
+  <path d="M179 158L237 125L526 292L468 325L179 158Z" fill="url(#street)"/>
+  <path d="M178 158L468 325" stroke="#B4C1B0" stroke-opacity=".55" stroke-width="1.5"/>
+  <path d="M220 164L240 176M263 189L284 201M419 279L439 290M461 303L480 314" stroke="#EFF2E7" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M188 192L214 207M183 198L209 213M178 204L204 219" stroke="#F7F6EB" stroke-width="5" stroke-linecap="round"/>
+  <path d="M469 255L491 268M463 259L485 272M457 263L479 276" stroke="#F7F6EB" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- A quiet little garden pavilion. -->
+  <path d="M248 173L300 203L362 167L309 137L248 173Z" fill="#9CAA93" fill-opacity=".15" filter="url(#soft)"/>
+  <path d="M247 126L297 155L297 192L247 163V126Z" fill="url(#wall)"/>
+  <path d="M297 155L352 123V160L297 192V155Z" fill="#D8DECB"/>
+  <path d="M239 121L294 88L361 127L306 159L239 121Z" fill="#F9F8ED"/>
+  <path d="M239 121L306 159V166L239 128V121Z" fill="#E7E5D4"/>
+  <path d="M306 159L361 127V134L306 166V159Z" fill="#BBC9B3"/>
+  <path d="M257 144L273 153V172L257 163V144Z" fill="#B8C7B4"/>
+  <path d="M259 146L271 153V168L259 161V146Z" fill="#D0DAC5"/>
+  <path d="M314 161L327 153V175L314 183V161Z" fill="#9AAE94"/>
+  <path d="M332 151L343 145V155L332 161V151Z" fill="#A8BAA2"/>
+  <path d="M287 109L307 98L324 108L305 119L287 109Z" fill="#D6DDC8"/>
+  <path d="M287 109V115L305 125V119L287 109Z" fill="#C5D1BB"/>
+  <path d="M305 119V125L324 114V108L305 119Z" fill="#AFC1A5"/>
+
+  <!-- The back tree: layered, softly sculpted green volumes. -->
+  <ellipse cx="431" cy="176" rx="38" ry="15" fill="#738C66" fill-opacity=".14"/>
+  <path d="M426 122L433 122V174C433 178 426 178 426 174V122Z" fill="#9D9978"/>
+  <path d="M431 147L445 132" stroke="#9D9978" stroke-width="4" stroke-linecap="round"/>
+  <path d="M427 138L417 126" stroke="#A7A180" stroke-width="4" stroke-linecap="round"/>
+  <path d="M399 106C394 93 401 80 411 76C410 59 425 47 440 52C452 51 464 62 464 76C478 82 482 99 474 111C473 129 457 140 441 136C429 146 410 140 406 127C396 124 393 114 399 106Z" fill="url(#leafDark)"/>
+  <path d="M411 76C422 72 433 76 438 84C446 79 456 80 463 85" stroke="#B7CAA5" stroke-opacity=".3" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="426" cy="77" rx="15" ry="14" fill="#B6CBA2" fill-opacity=".16"/>
+
+  <!-- Tall, rounded tree on the sunny side. -->
+  <ellipse cx="531" cy="243" rx="45" ry="18" fill="#6F895F" fill-opacity=".13"/>
+  <path d="M521 165H529V241C529 246 521 246 521 241V165Z" fill="#A5A17E"/>
+  <path d="M525 210L541 192M524 198L513 182" stroke="#A5A17E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M486 153C486 143 491 131 500 127C501 108 512 96 528 97C546 95 558 108 559 123C573 132 574 145 569 158C580 174 572 194 558 199C552 216 531 219 520 209C504 215 486 204 485 190C474 180 476 161 486 153Z" fill="url(#leaf)"/>
+  <path d="M502 127C512 122 527 124 533 134C545 127 557 131 563 138" stroke="#C4D4AE" stroke-opacity=".38" stroke-width="2" stroke-linecap="round"/>
+  <path d="M487 167C498 162 511 166 516 175" stroke="#C3D2AC" stroke-opacity=".28" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="520" cy="119" rx="18" ry="13" fill="#CFDDB8" fill-opacity=".15"/>
+
+  <!-- A low curved garden wall and clusters of rounded planting. -->
+  <path d="M410 193C433 207 455 212 476 222V235C453 224 432 220 410 207V193Z" fill="#D5DCC5"/>
+  <path d="M410 193L417 189C439 202 461 208 483 218L476 222C455 212 433 207 410 193Z" fill="#FAF7E9"/>
+  <path d="M476 222L483 218V231L476 235V222Z" fill="#B9C7AC"/>
+  <ellipse cx="447" cy="213" rx="13" ry="9" fill="#A8BD8C"/>
+  <ellipse cx="461" cy="217" rx="13" ry="8" fill="#94AF7F"/>
+  <ellipse cx="172" cy="245" rx="24" ry="12" fill="#B2C49B"/>
+  <ellipse cx="193" cy="253" rx="17" ry="10" fill="#9EB78A"/>
+  <ellipse cx="162" cy="237" rx="17" ry="11" fill="#C3D0AE"/>
+  <path d="M216 284L233 294L247 286L230 276L216 284Z" fill="#EDEDDD"/>
+  <path d="M240 298L257 308L271 300L254 290L240 298Z" fill="#EDEDDD"/>
+  <path d="M265 312L282 322L296 314L279 304L265 312Z" fill="#EDEDDD"/>
+
+  <!-- A familiar parking sign, with a small dimensional cap. -->
+  <ellipse cx="266" cy="244" rx="17" ry="7" fill="#748C69" fill-opacity=".13"/>
+  <path d="M262 172H267V240C267 243 262 243 262 240V172Z" fill="#A9B39B"/>
+  <path d="M250 143L280 160V193L250 176V143Z" fill="#567B52"/>
+  <path d="M250 143L255 140L285 157L280 160L250 143Z" fill="#8CAA7C"/>
+  <path d="M280 160L285 157V190L280 193V160Z" fill="#456B43"/>
+  <path d="M260 154V173M260 154L266 157C272 160 272 167 266 164L260 161" stroke="#F4F5E9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- A compact electric car, painted in the gentlest sage. -->
+  <path d="M287 231L382 286C393 292 417 277 424 268L325 209L287 231Z" fill="#536D51" fill-opacity=".19" filter="url(#soft)"/>
+  <ellipse cx="307" cy="236" rx="9" ry="14" transform="rotate(-29 307 236)" fill="#465A46"/>
+  <ellipse cx="309" cy="235" rx="4" ry="8" transform="rotate(-29 309 235)" fill="#C4CEBC"/>
+  <ellipse cx="384" cy="280" rx="9" ry="14" transform="rotate(-29 384 280)" fill="#465A46"/>
+  <ellipse cx="386" cy="279" rx="4" ry="8" transform="rotate(-29 386 279)" fill="#C4CEBC"/>
+  <path d="M286 210L380 264L421 240V254C421 260 416 264 411 267L391 279C386 282 381 281 376 278L293 230C288 227 286 224 286 219V210Z" fill="url(#carSide)"/>
+  <path d="M286 210C285 205 288 201 292 199L317 184C323 180 328 181 333 184L414 231C420 234 424 238 421 242L389 261C385 264 379 265 375 262L292 214C289 213 287 212 286 210Z" fill="url(#carTop)"/>
+  <path d="M312 206L326 177C328 172 333 171 338 174L367 190C371 192 374 196 376 201L388 229L357 247L312 221V206Z" fill="#A8C3A0"/>
+  <path d="M326 177L356 194L369 188L339 171C335 169 331 171 326 177Z" fill="#C6D7B9"/>
+  <path d="M326 177L357 195L347 223L316 205L326 177Z" fill="url(#glass)"/>
+  <path d="M332 181L322 208M354 193L344 220" stroke="#B6CEAB" stroke-width="3"/>
+  <path d="M358 195L371 188L387 223L356 241L348 223L358 195Z" fill="#B9CDAE"/>
+  <path d="M361 199L369 194L380 219L357 232L352 221L361 199Z" fill="url(#glass)"/>
+  <path d="M316 210L347 228L354 243L314 220L316 210Z" fill="#8EAF86"/>
+  <path d="M333 225V248" stroke="#71946A" stroke-width="1.2"/>
+  <path d="M337 234L343 237" stroke="#D2DEC5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M390 263L419 246V254C417 258 410 262 405 265L391 273L390 263Z" fill="#76986F"/>
+  <path d="M394 264L401 260M411 254L417 250" stroke="#F6F3D8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M402 269L410 264" stroke="#52754E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M290 216L293 218" stroke="#E2B9A0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M349 220L355 223L355 228L349 225V220Z" fill="#789970"/>
+
+  <!-- Small stones and a foreground sapling keep the edges gentle. -->
+  <path d="M338 353C338 349 345 346 351 348C360 349 363 354 356 358C350 361 339 359 338 353Z" fill="#CED6BD"/>
+  <path d="M374 345C374 342 379 340 383 342C389 344 390 348 385 350C380 351 374 349 374 345Z" fill="#DADECB"/>
+  <ellipse cx="300" cy="339" rx="27" ry="11" fill="#7F976C" fill-opacity=".12"/>
+  <path d="M296 286H302V337C302 340 296 340 296 337V286Z" fill="#A6A17F"/>
+  <path d="M299 313L309 302" stroke="#A6A17F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M274 276C274 264 283 256 294 257C305 249 320 256 322 267C335 275 332 293 322 299C320 312 303 319 293 311C279 314 267 302 271 289C268 285 270 279 274 276Z" fill="#A2B98A"/>
+  <path d="M277 276C285 271 295 274 299 280" stroke="#CBDBB4" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M285 305C298 311 311 306 316 299" stroke="#8AA774" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+</svg>
